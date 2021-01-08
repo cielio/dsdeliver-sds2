@@ -6,9 +6,9 @@ function Navbar() {
     return (
         <nav className="main-navbar">
             <Logo />
-            <a href="#" className="logo-text">Ds Delivery</a>
+            <a href="home" className="logo-text">DS Delivery</a>
         </nav>
     )
 }
 
-export default Navbar
+export default Navbar;
