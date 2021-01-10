@@ -3,7 +3,7 @@ import { ReactComponent as MainImage } from './main.svg'
 import React from 'react';
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
-function Navbar() {
+function Home() {
     return (
         <>
             <div className="home-container">
@@ -31,4 +31,4 @@ function Navbar() {
     )
 }
 
-export default Navbar;
+export default Home;
